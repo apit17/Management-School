@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4827531B1EEF143C00E4864D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4827531A1EEF143C00E4864D /* AppDelegate.swift */; };
+		4827531D1EEF143C00E4864D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4827531C1EEF143C00E4864D /* ViewController.swift */; };
+		482753201EEF143C00E4864D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4827531E1EEF143C00E4864D /* Main.storyboard */; };
+		482753231EEF143C00E4864D /* Shool_Management.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 482753211EEF143C00E4864D /* Shool_Management.xcdatamodeld */; };
+		482753251EEF143C00E4864D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 482753241EEF143C00E4864D /* Assets.xcassets */; };
+		482753281EEF143C00E4864D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 482753261EEF143C00E4864D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		482753171EEF143C00E4864D /* Shool Management.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shool Management.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4827531A1EEF143C00E4864D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4827531C1EEF143C00E4864D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4827531F1EEF143C00E4864D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		482753221EEF143C00E4864D /* Shool_Management.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shool_Management.xcdatamodel; sourceTree = "<group>"; };
+		482753241EEF143C00E4864D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		482753271EEF143C00E4864D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		482753291EEF143C00E4864D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		482753141EEF143C00E4864D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4827530E1EEF143C00E4864D = {
+			isa = PBXGroup;
+			children = (
+				482753191EEF143C00E4864D /* Shool Management */,
+				482753181EEF143C00E4864D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		482753181EEF143C00E4864D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				482753171EEF143C00E4864D /* Shool Management.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		482753191EEF143C00E4864D /* Shool Management */ = {
+			isa = PBXGroup;
+			children = (
+				4827531A1EEF143C00E4864D /* AppDelegate.swift */,
+				4827531C1EEF143C00E4864D /* ViewController.swift */,
+				4827531E1EEF143C00E4864D /* Main.storyboard */,
+				482753241EEF143C00E4864D /* Assets.xcassets */,
+				482753261EEF143C00E4864D /* LaunchScreen.storyboard */,
+				482753291EEF143C00E4864D /* Info.plist */,
+				482753211EEF143C00E4864D /* Shool_Management.xcdatamodeld */,
+			);
+			path = "Shool Management";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		482753161EEF143C00E4864D /* Shool Management */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4827532C1EEF143C00E4864D /* Build configuration list for PBXNativeTarget "Shool Management" */;
+			buildPhases = (
+				482753131EEF143C00E4864D /* Sources */,
+				482753141EEF143C00E4864D /* Frameworks */,
+				482753151EEF143C00E4864D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shool Management";
+			productName = "Shool Management";
+			productReference = 482753171EEF143C00E4864D /* Shool Management.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4827530F1EEF143C00E4864D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Apit;
+				TargetAttributes = {
+					482753161EEF143C00E4864D = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 482753121EEF143C00E4864D /* Build configuration list for PBXProject "Shool Management" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4827530E1EEF143C00E4864D;
+			productRefGroup = 482753181EEF143C00E4864D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				482753161EEF143C00E4864D /* Shool Management */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		482753151EEF143C00E4864D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482753281EEF143C00E4864D /* LaunchScreen.storyboard in Resources */,
+				482753251EEF143C00E4864D /* Assets.xcassets in Resources */,
+				482753201EEF143C00E4864D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		482753131EEF143C00E4864D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482753231EEF143C00E4864D /* Shool_Management.xcdatamodeld in Sources */,
+				4827531D1EEF143C00E4864D /* ViewController.swift in Sources */,
+				4827531B1EEF143C00E4864D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4827531E1EEF143C00E4864D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4827531F1EEF143C00E4864D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		482753261EEF143C00E4864D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				482753271EEF143C00E4864D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4827532A1EEF143C00E4864D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4827532B1EEF143C00E4864D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4827532D1EEF143C00E4864D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Shool Management/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.learn.Shool-Management";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4827532E1EEF143C00E4864D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Shool Management/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.learn.Shool-Management";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		482753121EEF143C00E4864D /* Build configuration list for PBXProject "Shool Management" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4827532A1EEF143C00E4864D /* Debug */,
+				4827532B1EEF143C00E4864D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4827532C1EEF143C00E4864D /* Build configuration list for PBXNativeTarget "Shool Management" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4827532D1EEF143C00E4864D /* Debug */,
+				4827532E1EEF143C00E4864D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		482753211EEF143C00E4864D /* Shool_Management.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				482753221EEF143C00E4864D /* Shool_Management.xcdatamodel */,
+			);
+			currentVersion = 482753221EEF143C00E4864D /* Shool_Management.xcdatamodel */;
+			path = Shool_Management.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4827530F1EEF143C00E4864D /* Project object */;
+}
