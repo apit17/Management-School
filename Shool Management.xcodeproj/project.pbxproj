@@ -14,6 +14,8 @@
 		482753251EEF143C00E4864D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 482753241EEF143C00E4864D /* Assets.xcassets */; };
 		482753281EEF143C00E4864D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 482753261EEF143C00E4864D /* LaunchScreen.storyboard */; };
 		482753301EEF21CA00E4864D /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4827532F1EEF21CA00E4864D /* SideMenuTableViewCell.swift */; };
+		484C584B1EEFF93400ABC393 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 484C584A1EEFF93400ABC393 /* MapKit.framework */; };
+		484C584D1EEFF9BE00ABC393 /* PengajuanSakitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484C584C1EEFF9BE00ABC393 /* PengajuanSakitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		482753271EEF143C00E4864D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		482753291EEF143C00E4864D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4827532F1EEF21CA00E4864D /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		484C584A1EEFF93400ABC393 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		484C584C1EEFF9BE00ABC393 /* PengajuanSakitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PengajuanSakitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				484C584B1EEFF93400ABC393 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,7 @@
 			children = (
 				482753191EEF143C00E4864D /* Shool Management */,
 				482753181EEF143C00E4864D /* Products */,
+				484C58491EEFF93400ABC393 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,8 +72,17 @@
 				482753261EEF143C00E4864D /* LaunchScreen.storyboard */,
 				482753291EEF143C00E4864D /* Info.plist */,
 				482753211EEF143C00E4864D /* Shool_Management.xcdatamodeld */,
+				484C584C1EEFF9BE00ABC393 /* PengajuanSakitViewController.swift */,
 			);
 			path = "Shool Management";
+			sourceTree = "<group>";
+		};
+		484C58491EEFF93400ABC393 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				484C584A1EEFF93400ABC393 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +160,7 @@
 				482753231EEF143C00E4864D /* Shool_Management.xcdatamodeld in Sources */,
 				4827531D1EEF143C00E4864D /* ViewController.swift in Sources */,
 				4827531B1EEF143C00E4864D /* AppDelegate.swift in Sources */,
+				484C584D1EEFF9BE00ABC393 /* PengajuanSakitViewController.swift in Sources */,
 				482753301EEF21CA00E4864D /* SideMenuTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +325,7 @@
 				4827532E1EEF143C00E4864D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

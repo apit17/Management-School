@@ -7,11 +7,11 @@
 //
 
 import UIKit
+import MapKit
 
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class ViewController: UIViewController {
 
     @IBOutlet weak var sideMenuView: UIView!
-    @IBOutlet weak var sideMenuTableView: UITableView!
     
     var isShow = false
     var sideItem = ["Profil", "Info Pembayaran", "Absen Barcode", "Pengajuan Sakit", "Jadwal Pelajaran", "Info Nilai"]
@@ -19,9 +19,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         super.viewDidLoad()
         sideMenuView.isHidden = true
         isShow = true
-        sideMenuTableView.delegate = self
-        sideMenuTableView.dataSource = self
-        sideMenuTableView.backgroundColor = UIColor.init(red: 160, green: 160, blue: 160, alpha: 1)
     
         let swipeGesture = UISwipeGestureRecognizer(target: self, action: #selector(handleSwipe(gesture:)))
         swipeGesture.direction = UISwipeGestureRecognizerDirection.left
@@ -30,7 +27,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleSwipe(gesture:)))
         self.view.addGestureRecognizer(swipeGesture)
         self.view.addGestureRecognizer(secondSwipeGesture)
-//        self.view.addGestureRecognizer(tapGesture)
+        self.view.addGestureRecognizer(tapGesture)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
